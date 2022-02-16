@@ -101,7 +101,7 @@ int main(){
     for(int i = 0; i < n; i++){
         printf("%f ", md[i]);
     }
-    free(m);
+    free(m);//освобождаем память
     free(md);
     return 0;
 }
