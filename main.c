@@ -101,5 +101,7 @@ int main(){
     for(int i = 0; i < n; i++){
         printf("%f ", md[i]);
     }
+    free(m);
+    free(md);
     return 0;
 }
